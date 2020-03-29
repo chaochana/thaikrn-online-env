@@ -1,0 +1,6 @@
+# replace :80 with your domain name to get automatic https via LetsEncrypt
+data.2485.in {
+    proxy / graphql-engine:8080 {
+        websocket
+    }
+}
